@@ -36,7 +36,15 @@ void book::feeddata()	{
 	
 }
 
-//
+void book::editdata()	{
+	
+	cout<<"\nEnter Author Name: ";      cin.getline(author,20);
+	cout<<"Enter Title Name: ";       cin.getline(title,20);
+	cout<<"Enter Publisher Name: ";   cin.getline(publisher,20);
+	cout<<"Enter Price: ";            cin>>*price;
+	cout<<"Enter Stock Position: ";   cin>>*stock;   
+	
+}
 
 void book::showdata()	{
 	cout<<"\nAuthor Name: "<<author;
